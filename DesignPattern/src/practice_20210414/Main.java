@@ -20,9 +20,9 @@ public class Main {
         listData.add(1);
         List data2=new List(listData);
 
-        BubbleSort arraySort=new ArrayBubbleSort(data1);
+        BubbleSort arraySort=new BubbleSort(data1);
         arraySort.sort();
-        BubbleSort listSort=new ListBubbleSort(data2);
+        BubbleSort listSort=new BubbleSort(data2);
         listSort.sort();
     }
 }
